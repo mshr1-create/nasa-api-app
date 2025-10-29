@@ -1,0 +1,46 @@
+# ---- Node / Vite 基本 ----
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Vite キャッシュ
+.vite/
+
+# ソースマップ（必要なら外す）
+*.map
+
+# ---- 環境変数・鍵（重要） ----
+.env
+.env.*
+!.env.example
+.env.local
+.env.*.local
+
+# ---- ログ/診断 ----
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# ---- テスト/カバレッジ ----
+coverage/
+.junit/
+*.lcov
+
+# ---- エディタ類 ----
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.iml
+
+# ---- OSごみ ----
+.DS_Store
+Thumbs.db
+
+# ---- ビルド/一時 ----
+.tmp/
+temp/
+.cache/
